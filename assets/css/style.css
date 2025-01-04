@@ -1889,3 +1889,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-bottom: 10px;
   text-align: center;
 }
+.light{
+  background-color: white !important;
+  color: black !important;
+  transition: .5s;
+
+}
+.switch-on{
+  display: none;
+}
