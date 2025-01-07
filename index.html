@@ -1034,7 +1034,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/ไฟล์รูปภาพProject/salon80website_page-0001.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/ไฟล์รูปภาพProject/salon80website_page-0001.jpg" onclick="openmodalsalon()" alt="Design conferences in 2022" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1062,7 +1062,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/ไฟล์รูปภาพProject/Datacocoamorewebposter_page-0001.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/ไฟล์รูปภาพProject/Datacocoamorewebposter_page-0001.jpg" onclick="openmodalwebcoco()" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1093,7 +1093,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/ไฟล์รูปภาพProject/movie wepick.PNG" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/ไฟล์รูปภาพProject/movie wepick.PNG" onclick="openmodalmovie()" alt="Design digest #80" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1263,16 +1263,28 @@
     <button class="modal-close-btn" onclick="closemodal()">X</button>
     <div class="modal-content">
       <h2>Project Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at magna sit amet purus vehicula facilisis.</p>
+      <p>คำนำ รายวิชา  วัตถุประสงค์ ผลที่ได้ </p>
     </div>
     <div class="modal-context">
-      <strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, adipisci?
+      <strong>Programing</strong> ภาษาที่พัฒนา รายละเอียดภาษา
     </div>
   </div>
 
   <div class="modal-overlay python-overlay"></div>
   <div class="modal-project python-project">
     <button class="modal-close-btn python-closebtn" onclick="closemodalpython()">X</button>
+    <div class="modal-content python-content">
+      <h2>Project Title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at magna sit amet purus vehicula facilisis.</p>
+    </div>
+    <div class="modal-context python">
+      <strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, adipisci?
+    </div>
+  </div>
+
+  <div class="modal-overlay python-overlay"></div>
+  <div class="modal-project python-project">
+    <button class="modal-close-btn python-closebtn" onclick="closemodalwebcoco()">X</button>
     <div class="modal-content python-content">
       <h2>Project Title</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at magna sit amet purus vehicula facilisis.</p>
@@ -1313,6 +1325,30 @@
       document.querySelector(".python-overlay").classList.add("open")
     }
     function closemodalpython(){
+      document.querySelector(".python-project").classList.remove("open")
+      document.querySelector(".python-overlay").classList.remove("open")
+    }
+    function openmodalwebcoco(){
+      document.querySelector(".python-project").classList.add("open")
+      document.querySelector(".python-overlay").classList.add("open")
+    }
+    function closemodalwebcoco(){
+      document.querySelector(".python-project").classList.remove("open")
+      document.querySelector(".python-overlay").classList.remove("open")
+    }
+    function openmodalmovie(){
+      document.querySelector(".python-project").classList.add("open")
+      document.querySelector(".python-overlay").classList.add("open")
+    }
+    function closemodalmovie(){
+      document.querySelector(".python-project").classList.remove("open")
+      document.querySelector(".python-overlay").classList.remove("open")
+    }
+    function openmodalsalon(){
+      document.querySelector(".python-project").classList.add("open")
+      document.querySelector(".python-overlay").classList.add("open")
+    }
+    function closemodalsalon(){
       document.querySelector(".python-project").classList.remove("open")
       document.querySelector(".python-overlay").classList.remove("open")
     }

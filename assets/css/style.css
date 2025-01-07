@@ -884,7 +884,7 @@ main {
 }
 
 .filter-select {
-  background: black;
+  background: rgb(255, 255, 255);
   color: black;
   display: flex;
   justify-content: space-between;
@@ -900,7 +900,7 @@ main {
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
 .select-list {
-  background: black;
+  background: hsl(296, 71%, 81%) 3%;
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
