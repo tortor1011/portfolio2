@@ -1943,7 +1943,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   text-align: center;
 }
 
-.modal-content h2 {
+.modal-content h2 ,h3 {
   margin: 0 0 10px;
   color: #ff6699;
 }
