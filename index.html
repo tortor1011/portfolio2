@@ -1298,15 +1298,45 @@
     </div>
   </div>
 
-  <div class="modal-overlay python-overlay"></div>
-  <div class="modal-project python-project">
-    <button class="modal-close-btn python-closebtn" onclick="closemodalwebcoco()">X</button>
-    <div class="modal-content python-content">
-      <h2>Cocoamore</h2>
+  <div class="modal-overlay webcoco-overlay"></div>
+  <div class="modal-project webcoco-project">
+    <button class="modal-close-btn webcoco-closebtn" onclick="closemodalwebcoco()">X</button>
+    <div class="modal-content webcoco-content">
+      <h2>Cocoamore Website</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at magna sit amet purus vehicula facilisis.</p>
     </div>
-    <div class="modal-context python">
+    <div class="modal-context webcoco">
       <strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, adipisci?
+    </div>
+  </div>
+  
+  <div class="modal-overlay salon-overlay"></div>
+  <div class="modal-project salon-project">
+    <button class="modal-close-btn salon-closebtn" onclick="closemodalsalon()">X</button>
+    <div class="modal-content salon-content">
+      <h2>80salon</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at magna sit amet purus vehicula facilisis.</p>
+    </div>
+    <div class="modal-context salon">
+      <strong>Details:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, adipisci?
+    </div>
+  </div>
+
+  <div class="modal-overlay movie-overlay"></div>
+  <div class="modal-project movie-project">
+    <button class="modal-close-btn movie-closebtn" onclick="closemodalmovie()">X</button>
+    <div class="modal-content movie-content">
+      <h2>MovieWePick</h2>
+      <p>Provide information about movies such as synopsis details, actors, directors, and release dates. Including ratings or reviews from viewers and critics. and use it as a marketing channel
+         for promoting new movies By sharing movie trailers (Trailer), posters, and behind-the-scenes footage.</p>
+        <br>
+         <h3>Objective</h3>
+         <p></p>
+         <br>
+         <h3>Advisor</h3> <p>Dr.juthatip chaikhambung</p>
+    </div>
+    <div class="modal-context movie">
+      <strong>Programing</strong> Python,PHP,Css
     </div>
   </div>
   
@@ -1345,28 +1375,28 @@
       document.querySelector(".python-overlay").classList.remove("open")
     }
     function openmodalwebcoco(){
-      document.querySelector(".python-project").classList.add("open")
-      document.querySelector(".python-overlay").classList.add("open")
+      document.querySelector(".webcoco-project").classList.add("open")
+      document.querySelector(".webcoco-overlay").classList.add("open")
     }
     function closemodalwebcoco(){
-      document.querySelector(".python-project").classList.remove("open")
-      document.querySelector(".python-overlay").classList.remove("open")
+      document.querySelector(".webcoco-project").classList.remove("open")
+      document.querySelector(".webcoco-overlay").classList.remove("open")
     }
     function openmodalmovie(){
-      document.querySelector(".python-project").classList.add("open")
-      document.querySelector(".python-overlay").classList.add("open")
+      document.querySelector(".movie-project").classList.add("open")
+      document.querySelector(".movie-overlay").classList.add("open")
     }
     function closemodalmovie(){
-      document.querySelector(".python-project").classList.remove("open")
-      document.querySelector(".python-overlay").classList.remove("open")
+      document.querySelector(".movie-project").classList.remove("open")
+      document.querySelector(".movie-overlay").classList.remove("open")
     }
     function openmodalsalon(){
-      document.querySelector(".python-project").classList.add("open")
-      document.querySelector(".python-overlay").classList.add("open")
+      document.querySelector(".salon-project").classList.add("open")
+      document.querySelector(".salon-overlay").classList.add("open")
     }
     function closemodalsalon(){
-      document.querySelector(".python-project").classList.remove("open")
-      document.querySelector(".python-overlay").classList.remove("open")
+      document.querySelector(".salon-project").classList.remove("open")
+      document.querySelector(".salon-overlay").classList.remove("open")
     }
       
   </script>
