@@ -360,8 +360,8 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: black;
-  background: var(--border-gradient-onyx);
+  color: rgb(0, 0, 0);
+  background: var(pink);
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -382,7 +382,7 @@ main {
 .info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
 
 .info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
+.info_more-btn:focus::before { background: #b415a0; }
 
 .info_more-btn span { display: none; }
 
