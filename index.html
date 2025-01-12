@@ -188,6 +188,10 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+          
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
           
@@ -881,7 +885,7 @@
             </li> -->
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a onclick="openmodal()">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -899,7 +903,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="program">
-              <a href="#">
+              <a onclick="openmodalpython()">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -917,7 +921,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a onclick="openmodalmovie()">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -935,7 +939,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a onclick="openmodalsalon()">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -951,16 +955,17 @@
 
               </a>
             </li>
-
+            
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a onclick="openmodalwebcoco()">
+              
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/ไฟล์รูปภาพProject/Datacocoamorewebposter_page-0001.jpg" alt="summary" loading="lazy">
+                  <img src="./assets/images/ไฟล์รูปภาพProject/Datacocoamorewebposter_page-0001.jpg"  onclick="openmodal()"alt="summary" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Cocoamore</h3>
@@ -1208,7 +1213,200 @@
       </article>
 
 
+      <article class="experience default" data-page="certificates">
 
+        <header>
+          <h2 class="h2 article-title default">Certificates</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box ">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a onclick="openmodal()">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ไฟล์รูปภาพProject/MJposter_page-0001.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MJ Petshop</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="program">
+              <a onclick="openmodalpython()">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ไฟล์รูปภาพProject/DataPython_page-0001.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cocoamore Reserv</h3>
+
+                <p class="project-category">Program</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a onclick="openmodalmovie()">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ไฟล์รูปภาพProject/movie wepick.PNG" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MovieWePick</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a onclick="openmodalsalon()">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ไฟล์รูปภาพProject/salon80website_page-0001.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">80Salon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a onclick="openmodalwebcoco()">
+              
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ไฟล์รูปภาพProject/Datacocoamorewebposter_page-0001.jpg"  onclick="openmodal()"alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cocoamore</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="program">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Program</p>
+
+              </a>
+            </li> -->
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
       <!--
