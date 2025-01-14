@@ -1013,9 +1013,10 @@ main {
 .project-title,
 .project-category { margin-left: 10px; }
 
+
 .project-title {
   color: #b415a0;
-  
+  display: flex !important;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   background: #ffffff;
@@ -1037,7 +1038,10 @@ main {
   
 }
 
-
+.git{
+  display: inline;
+  margin-left: 10px;
+}
 
 
 
