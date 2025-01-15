@@ -467,6 +467,13 @@ main {
   z-index: 5;
 }
 
+
+@media only screen and (max-width: 600px) {
+.navbar-item{
+    padding: 5px;
+  }
+}
+
 .navbar-list {
   display: flex;
   flex-wrap: wrap;
@@ -881,6 +888,7 @@ main {
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
+  display: none;
 }
 
 .filter-select {
@@ -1985,5 +1993,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   z-index: 999; /* อยู่ใต้ modal */
   display: none;
 }
-
+.italkpic{
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
 
