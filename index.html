@@ -612,7 +612,7 @@
       <article class="resume default" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title default">Resume <a href="./assets/pdf/JanTor Resume.pdf" download="./assets/pdf/JanTor Resume.pdf" style="font-size: 18px;">download</a></h2> 
+          <h2 class="h2 article-title default">Resume <a href="./assets/pdf/JanTor Resume1.pdf" download="./assets/pdf/JanTor Resume.pdf" style="font-size: 18px;">download</a></h2> 
         </header>
  
         <section class="timeline default">
@@ -1378,26 +1378,23 @@
         </section>
 
         <section class="contact-form">
-
+          <form action="https://api.web3forms.com/submit" method="POST">
           <h3 class="h3 form-title">Contact Form</h3>
+          
+          <div class="input-wrapper">
+            <input type="hidden" name="access_key" value="4fdad4ca-bca2-4faa-91c2-048d8d260d89">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-          <form action="#" class="form" data-form>
+            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </div>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+          <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
+          <button class="form-btn" type="submit">
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
           </form>
-
         </section>
 
       </article>

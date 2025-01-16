@@ -470,7 +470,7 @@ main {
 
 @media only screen and (max-width: 600px) {
 .navbar-item{
-    padding: 5px;
+    padding: 3px;
   }
 }
 
@@ -1998,4 +1998,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   height: 300px;
   position: relative;
 }
+
 
