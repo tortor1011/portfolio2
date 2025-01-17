@@ -1964,7 +1964,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .modal-content {
   padding: 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 .modal-content h2 ,h3 {
