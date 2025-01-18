@@ -316,7 +316,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 125px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1964,7 +1964,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .modal-content {
   padding: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 .modal-content h2 ,h3 {
@@ -1998,5 +1998,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   height: 300px;
   position: relative;
 }
-
+.tel{
+  color: rgb(100, 100, 100);
+}
 
